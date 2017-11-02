@@ -1,4 +1,4 @@
-FROM node:6-alpine
+FROM node:8-alpine
 RUN yarn add mobile-detect
 ADD index.js package.json /opt/app/
 VOLUME /opt/app/config/
