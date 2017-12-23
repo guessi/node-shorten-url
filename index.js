@@ -6,7 +6,7 @@ var MobileDetect = require('mobile-detect');
 var cfg = require('./config/redirections.js');
 
 // Check if device supported by Mobile-Detect framework?
-// https://github.com/serbanghita/Mobile-Detect/blob/2.8.26/Mobile_Detect.php#L474
+// https://github.com/serbanghita/Mobile-Detect/blob/2.8.30/Mobile_Detect.php#L476
 function get_url_with_user_agent(keyword, user_agent) {
     var url = cfg.fallback_url;
 
