@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "dependencies": {
     "jslint": "^0.11.0",
-    "mobile-detect": "^1.3.7"
+    "mobile-detect": "^1.4.0"
   },
   "repository": {
     "type": "git",
