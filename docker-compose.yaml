@@ -1,12 +1,12 @@
-version: '2'
+version: '3'
 
 services:
   shortenurl:
     image: guessi/node-shorten-url
     volumes:
-        - ./config:/opt/app/config:ro
+    - ./config:/opt/app/config:ro
     ports:
-        - 8080:8080
+    - 8080:8080
     logging:
       driver: json-file
       options:

@@ -65,6 +65,11 @@ Why is the redirection rules are static?
 - [Mobile-Detect for node](https://www.npmjs.com/package/mobile-detect)
 
 
+# Alternative
+
+- [go-shorten-url](https://github.com/guessi/go-shorten-url)
+
+
 # License
 
 [Apache-2.0](LICENSE)
