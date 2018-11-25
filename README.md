@@ -9,8 +9,8 @@ a simple shorten url redirection solution with nodejs
 
 # Prerequisites
 
-- Docker-CE 17.06+
-- Docker Compose 1.16.0+
+- Docker-CE 18.03+
+- Docker Compose 1.21.0+
 
 
 # Usage
@@ -24,7 +24,7 @@ a simple shorten url redirection solution with nodejs
 
 # For Developers
 
-    $ docker pull "$(awk '/^FROM /{print$2}' Dockerfile | head -1)"
+    $ docker pull node:10-alpine
 
     $ docker-compose -f docker-compose-dev.yaml up --build
 
