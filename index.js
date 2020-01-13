@@ -1,6 +1,7 @@
 "use strict";
 
 var http = require("http");
+var HttpStatus = require('http-status-codes');
 var MobileDetect = require('mobile-detect');
 
 var cfg = require('./config/redirections.js');
@@ -30,7 +31,7 @@ var server = http.createServer(function (req, res) {
 
     console.log("req: %s, os: %s, dst: %s", req.url, ua.os(), url);
 
-    res.writeHead(302, {
+    res.writeHead(HttpStatus.MOVED_TEMPORARILY, {
         'Location': url,
         'Expires': new Date().toGMTString()
     });

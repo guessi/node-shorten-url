@@ -3,6 +3,7 @@
   "description": "a simple shorten url redirection solution with nodejs",
   "version": "1.2.0",
   "dependencies": {
+    "http-status-codes": "^1.4.0",
     "jslint": "^0.12.1",
     "mobile-detect": "^1.4.4"
   },
