@@ -24,7 +24,7 @@ a simple shorten url redirection solution with nodejs
 
 # For Developers
 
-    $ docker pull node:10-alpine
+    $ docker pull node:12-alpine
 
     $ docker-compose -f docker-compose-dev.yaml up --build
 
