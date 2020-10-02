@@ -9,8 +9,8 @@ a simple shorten url redirection solution with nodejs
 
 # Prerequisites
 
-- Docker-CE 18.03+
-- Docker Compose 1.21.0+
+- Docker-CE 19.03+
+- Docker Compose 1.27+
 
 
 # Usage
