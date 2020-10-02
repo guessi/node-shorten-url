@@ -31,7 +31,7 @@ var server = http.createServer(function (req, res) {
 
     console.log("req: %s, os: %s, dst: %s", req.url, ua.os(), url);
 
-    res.writeHead(HttpStatus.MOVED_TEMPORARILY, {
+    res.writeHead(HttpStatus.StatusCodes.MOVED_TEMPORARILY, {
         'Location': url,
         'Expires': new Date().toGMTString()
     });
