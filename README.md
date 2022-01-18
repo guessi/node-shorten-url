@@ -1,9 +1,5 @@
 # node-shorten-url
 
-[![Docker Stars](https://img.shields.io/docker/stars/guessi/node-shorten-url.svg)](https://hub.docker.com/r/guessi/node-shorten-url/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/guessi/node-shorten-url.svg)](https://hub.docker.com/r/guessi/node-shorten-url/)
-[![Docker Automated](https://img.shields.io/docker/automated/guessi/node-shorten-url.svg)](https://hub.docker.com/r/guessi/node-shorten-url/)
-
 a simple shorten url redirection solution with nodejs
 
 
