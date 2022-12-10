@@ -5,24 +5,14 @@ a simple shorten url redirection solution with nodejs
 
 # Prerequisites
 
-- Docker-CE 19.03+
-- Docker Compose 1.27+
+- Docker-CE 20.10+
 
 
 # Usage
 
-    $ docker-compose pull # make sure your image is up-to-date
+    $ docker pull node:18-alpine
 
-    $ docker-compose up
-
-    $ curl http://127.0.0.1:8080/example
-
-
-# For Developers
-
-    $ docker pull node:16-alpine
-
-    $ docker-compose -f docker-compose-dev.yaml up --build
+    $ docker compose -f docker-compose-dev.yaml up --build
 
     $ curl http://127.0.0.1:8080/example
 
@@ -55,8 +45,7 @@ Why is the redirection rules are static?
 
 # Reference
 
-- [Docker CE](https://www.docker.com/community-edition)
-- [Docker Compose](https://docs.docker.com/compose/overview/)
+- [Docker](https://www.docker.com/products/personal/)
 - [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
 - [Mobile-Detect for node](https://www.npmjs.com/package/mobile-detect)
 
