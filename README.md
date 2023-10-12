@@ -10,8 +10,6 @@ a simple shorten url redirection solution with nodejs
 
 # Usage
 
-    $ docker pull node:18-alpine
-
     $ docker compose -f docker-compose-dev.yaml up --build
 
     $ curl http://127.0.0.1:8080/example

@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:20-alpine
 ADD index.js package.json yarn.lock /opt/app/
 WORKDIR /opt/app
 RUN yarn install
