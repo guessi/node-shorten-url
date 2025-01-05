@@ -5,7 +5,7 @@ a simple shorten url redirection solution with nodejs
 
 # Prerequisites
 
-- Docker-CE 20.10+
+- Docker 25+
 
 
 # Usage
